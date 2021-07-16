@@ -19,6 +19,7 @@ html {
     --grey-dark: #4D5E77;
     --grey-blue: #A1B2CD;
     --grey-light:#E5EAF1;
+    --grey-medium: #EAECF2;
 
     /* 1rem = 16px (User Agent) = 100% (User Agent) */
     font-size: 62.5% /* 10px */
@@ -77,6 +78,18 @@ button.outlined,
     border: .2rem solid var(--blue);
 }
 
+button.red,
+.button.red {
+    background: var(--red);
+    color: var(--white);
+}   
+
+button.grey,
+.button.grey {
+    background: var(--grey-light);
+    color: var(--grey-dark);
+}
+
 .content {
     width: 100%;
     margin: 0 auto;
@@ -93,6 +106,8 @@ button.outlined,
     white-space: nowrap;
     border-width: 0;
 }
+
+/* HEADER */
 
 .content header {
     width: 80%;
